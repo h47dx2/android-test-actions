@@ -23,4 +23,4 @@ jobs:
     - name: Build Release APK
       run: ./gradlew assembleRelease
     - name: Build Android release APK when create new tag
-      uses: kyze8439690/action-release-releaseapk@1.0.0
+      uses: h47dx2/action-release-releaseapk@main
